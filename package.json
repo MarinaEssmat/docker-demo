@@ -4,17 +4,19 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "test": "mocha"
+    "test": "npm install inherits && mocha"
   },
   "engines": {
     "node": "^12"
   },
   "dependencies": {
+
     "express": "^4.17.1",
     "mysql": "^2.18.0"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
+
   }
 }
 
